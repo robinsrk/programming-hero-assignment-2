@@ -8,9 +8,42 @@ nav-bar {
 .yellow {
 	color: #FABE4C;
 }
-.welcome {
-	font-family: Bebas Neue;
+.welcome h1 {
+	font-family: lobster !important;
+}
+.welcome .gap{
+	margin-top: 100px;
 }
 header {
 	height:950px;
+}
+.women-jacket{
+	height: 950px;
+}
+.women-jacket .card{
+	/* background-color: grey !important; */
+	border-radius: 20px;
+}
+/* .jacket img {
+	background-color: grey !important;
+	border:0px;
+} */
+.img-1, .img-2, .img-3{
+	background-color: lightgrey !important;
+	border: 0px !important;
+}
+.women-jacket .img-2{
+	width: 80% !important;
+	margin-left: 30px;
+}
+.men-jacket .img-1,.ment-jacket .img-3 {
+	width: 70% !important;
+}
+.card-image {
+	background-color: lightgrey;
+	border-radius: 20px;
+	height: 500px;
+}
+.item {
+	border: 0px !important;
 }
