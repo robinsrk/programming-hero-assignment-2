@@ -30,10 +30,10 @@ nav-bar {
 } */
 .img-1,
 .img-2,
-.img-3 {
+.img-3, .img-4, .img-5, .img-6 {
 	background-color: lightgrey !important;
 	border: 0px !important;
-	border-radius: 30px;
+	border-radius: 30px !important;
 }
 .img-1{
 	width: 90% !important;
@@ -44,7 +44,15 @@ nav-bar {
 .img-3 {
 	width: 70% !important;
 }
-
+.img-4 {
+	width: 70% !important;
+}
+.img-5 {
+	width: 90% !important;
+}
+.img-6 {
+	width: 65% !important;
+}
 .men-jacket .img-1,
 .ment-jacket .img-3 {
 	width: 70%;
@@ -63,7 +71,7 @@ nav-bar {
 @media (max-width: 400px) {
 	.card-imge {
 		height: 600px;
-		background-color: lightgrey;
+		background-color: lightgrey !important;
 		border-radius: 20px;
 	}
 	.card-3{
