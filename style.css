@@ -2,6 +2,9 @@ nav-bar {
 	background-color: #fffbf0 !important;
 	font-family: roboto !important;
 }
+body {
+	font-family: roboto !important;
+}
 .back-yellow {
 	background-color: #fffbf0;
 }
@@ -14,28 +17,21 @@ nav-bar {
 .welcome .gap {
 	margin-top: 100px;
 }
-/* header {
-	height: 950px;
-} */
-/* .women-jacket {
-	height: 950px;
-} */
-.women-jacket .card {
-	/* background-color: grey !important; */
+
+.men-jacket .card {
 	border-radius: 20px;
 }
-/* .jacket img {
-	background-color: grey !important;
-	border:0px;
-} */
 .img-1,
 .img-2,
-.img-3, .img-4, .img-5, .img-6 {
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
 	background-color: lightgrey !important;
 	border: 0px !important;
 	border-radius: 30px !important;
 }
-.img-1{
+.img-1 {
 	width: 90% !important;
 }
 .img-2 {
@@ -68,24 +64,19 @@ nav-bar {
 		height: 950px;
 	}
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 	.card-imge {
 		height: 600px;
 		background-color: lightgrey !important;
 		border-radius: 20px;
 	}
-	.card-3{
+	.card-3 {
 		margin-bottom: 300px;
-	}
-	header{
-		/* height: 1400px; */
-	}
-	.women-jacket{
-		/* height: 1400px; */
 	}
 }
 .item {
 	border: 0px !important;
+	border-radius: 30px !important;
 }
 .men-jacket .img-2 {
 	width: 90%;
@@ -99,10 +90,28 @@ nav-bar {
 .column {
 	border-radius: 30px;
 }
-.about img{
+.about img {
 	border: 0px;
-	width: 120px;
+	width: 90px;
 }
-.about {
-	height: 950px;
+
+.subscription {
+	/* height: 200px; */
+	background-color: #778ff9;
+	border-radius: 40px;
+}
+.subscription a {
+	color: white;
+}
+.name-email {
+	width: 400px;
+	margin-left: 40px;
+}
+.comment {
+	height: 100px;
+	width: 400px;
+}
+.logo {
+	width: 100px;
+	border-radius: 30px;
 }

@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Penguin Fashion</title>
 		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/63e3f30ff0.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
 			integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -18,53 +19,22 @@
 
 	<body>
 		<header class="back-yellow mb-5">
-			<!-- 	<nav class="navbar navbar-light navbar-expand-lg container">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#"><img class="w-50" src="./Image/Logo/Group33072.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="d-flex collapse navbar-collapse" id="navbarNavAltMarkup">
-						<ul class="navbar-nav">
-							<li class="nav-item p-2"><a class="nav-link" href="#">Home</a></li>
-						</ul>
-						<ul class="navbar-nav">
-							<li class="nav-item p-2"><a class="nav-link" href="#">Product</a></li>
-						</ul>
-						<ul class="navbar-nav">
-							<li class="nav-item p-2"><a class="nav-link" href="#">About us</a></li>
-						</ul>
-						<ul class="navbar-nav">
-							<li class="nav-item p-2"><a class="nav-link" href="#">Contact us</a></li>
-						</ul>
-						<div class="navbar-nav">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-							<a class="nav-link" href="#">Features</a>
-							<a class="nav-link" href="#">Pricing</a>
-							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-						</div>
-					</div> -->
-			<nav class="navbar navbar-expand-lg navbar-light container">
-				<div class="container-fluid d-flex">
-					<a class="navbar-brand" href="#"><img class="w-50 img-fluid" src="./Image/Logo/Group33072.png"
-							alt=""></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-						<div class="navbar-nav">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-							<a class="nav-link" href="#">Features</a>
-							<a class="nav-link" href="#">Pricing</a>
-							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-						</div>
+			<nav class="navbar navbar-expand-md navbar-light container">
+				<a href="#" class="navbar-brand">
+					<img src="./Image/Logo/Group33072.png" height="28" alt="CoolBrand">
+				</a>
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<div class="navbar-nav ml-auto">
+						<a href="#" class="nav-item nav-link active">Home</a>
+						<a href="#" class="nav-item nav-link active">Produck</a>
+						<a href="#" class="nav-item nav-link active">About us</a>
+						<a href="#" class="nav-item nav-link active">Contact us</a>
 					</div>
 				</div>
-			</nav>
 			</nav>
 			<section class="welcome">
 				<div class="container mt-5">
@@ -90,7 +60,7 @@
 		</header>
 		<main>
 			<section class="container women-jacket mt-5">
-				<h1>Women Jacket</h1>
+				<h1 class="text-sm-center">Women Jacket</h1>
 				<div class="row mt-3 card-3">
 					<div class="col-md-12 col-lg-4 mt-3">
 						<div class="card card-inverse card-primary container shadow-lg item">
@@ -98,11 +68,11 @@
 								<img class="card-img-top mt-3 h-auto img-1 img-fluid  mx-auto d-block"
 									src="./Image/SeekPng1.png" alt="Card image cap">
 							</div>
-							<div class="card-body mt-3">
+							<div class="card-body mt-3 px-sm-3">
 								<h3 class="card-title">Yellow Coat Jacket</h3>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of the card's content.</p>
-								<div class="d-flex justify-content-around align-items-center">
+								<div class="d-flex justify-content-between align-items-center">
 									<h2 class="text-warning font-weight-bold">$234</h2>
 									<a href="#" class="btn btn-success"><img class="w-25"
 											src="./Image/Logo/shopping-cart.png" alt="">BUY NOW</a>
@@ -117,11 +87,11 @@
 								<img class="card-img-top mt-3 img-2 img-fluid  mx-auto d-block"
 									src="./Image/PngItem_25973661.png" alt="Card image cap">
 							</div>
-							<div class="card-body">
-								<h4 class="card-title">This is Card #2</h4>
+							<div class="card-body mt-3">
+								<h3 class="card-title">Ladies Jacket</h3>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of the card's content.</p>
-								<div class="d-flex justify-content-around align-items-center">
+								<div class="d-flex justify-content-between align-items-center">
 									<h2 class="text-warning font-weight-bold">$234</h2>
 									<a href="#" class="btn btn-success"><img class="w-25"
 											src="./Image/Logo/shopping-cart.png" alt="">BUY NOW</a>
@@ -137,11 +107,11 @@
 								<img class="card-img-top img-fluid  mx-auto d-block mt-3 img-3"
 									src="./Image/image15.png" alt="Card image cap">
 							</div>
-							<div class="card-body">
-								<h3 class="card-title">This is Card #3</h3>
+							<div class="card-body mt-3">
+								<h3 class="card-title">Women Leather Jacket</h3>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of the card's content.</p>
-								<div class="d-flex justify-content-around align-items-center">
+								<div class="d-flex justify-content-between align-items-center">
 									<h2 class="text-warning font-weight-bold">$234</h2>
 									<a href="#" class="btn btn-success"><img class="w-25"
 											src="./Image/Logo/shopping-cart.png" alt="">BUY NOW</a>
@@ -157,16 +127,16 @@
 				<h1>Man Jacket</h1>
 				<div class="row mt-3 card-3">
 					<div class="col-md-12 col-lg-4 mt-3">
-						<div class="card card-inverse container shadow-lg item">
+						<div class="card card-inverse container d-flex shadow-lg item">
 							<div class="card-image mt-3">
 								<img class="card-img-top mt-3 h-auto img-4 img-fluid  mx-auto d-block"
 									src="./Image/image11.png" alt="Card image cap">
 							</div>
-							<div class="card-body mt-3">
-								<h3 class="card-title">Yellow Coat Jacket</h3>
+							<div class="card-body ">
+								<h3 class="card-title mt-3">Snowboard Jacket Men</h3>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of the card's content.</p>
-								<div class="d-flex justify-content-around align-items-center">
+								<div class="d-flex justify-content-between align-items-center">
 									<h2 class="text-warning font-weight-bold">$234</h2>
 									<a href="#" class="btn btn-success"><img class="w-25"
 											src="./Image/Logo/shopping-cart.png" alt="">BUY NOW</a>
@@ -181,11 +151,11 @@
 								<img class="card-img-top mt-3 img-5 img-fluid  mx-auto d-block"
 									src="./Image/vippng1.png" alt="Card image cap">
 							</div>
-							<div class="card-body">
-								<h4 class="card-title">This is Card #2</h4>
+							<div class="card-body ">
+								<h3 class="card-title mt-3">Man Leather Jackets</h3>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of the card's content.</p>
-								<div class="d-flex justify-content-around align-items-center">
+								<div class="d-flex justify-content-between align-items-center">
 									<h2 class="text-warning font-weight-bold">$234</h2>
 									<a href="#" class="btn btn-success"><img class="w-25"
 											src="./Image/Logo/shopping-cart.png" alt="">BUY NOW</a>
@@ -202,10 +172,10 @@
 									src="./Image/toppng1.png" alt="Card image cap">
 							</div>
 							<div class="card-body">
-								<h3 class="card-title">This is Card #3</h3>
+								<h3 class="card-title mt-3">Man Casual Jackets</h3>
 								<p class="card-text">Some quick example text to build on the card title and make up the
 									bulk of the card's content.</p>
-								<div class="d-flex justify-content-around align-items-center">
+								<div class="d-flex justify-content-between align-items-center">
 									<h2 class="text-warning font-weight-bold">$234</h2>
 									<a href="#" class="btn btn-success"><img class="w-25"
 											src="./Image/Logo/shopping-cart.png" alt="">BUY NOW</a>
@@ -222,40 +192,34 @@
 					<div class="row d-flex flex-sm-row-reverse mt-5">
 
 						<div class="col-sm">
-							<img class=" img-fluid w-100" src="./Image/Logo/XMLID.png" alt="">
+							<img class=" img-fluid w-100 mt-5" src="./Image/Logo/XMLID.png" alt="">
 						</div>
-						<div class="col-sm-12 col-lg-6 mt-5">
+						<div class="col-sm-12 col-lg-6 mt-5 text-sm-center">
 							<div class="row d-flex bg-white shadow-lg column">
-								<!-- <p><img style="border: 0px;" class="img-fluid img-thumbnail" src="./Image/Logo/image12.png" alt="">
-								<h1 style="block">Find the perfect fit</h1></p> -->
-								<div class="col-3">
+								<div class="col-lg-3 m-sm-2 d-flex justify-content-sm-center">
 									<img class="img-fluid " src="./Image/Logo/image12.png" alt="">
 								</div>
-								<div class="col-9">
-									<h3 class="font-weight-bold">Find the perfect fit</h3>
+								<div class="col-lg-9 pt-lg-2">
+									<h3 class="font-weight-bold justify-content-sm-center">Find the perfect fit</h3>
 									<p>Everybody is different, which is why we offer style to everybody</p>
 								</div>
 							</div>
 							<div class="row d-flex bg-white shadow-lg column mt-2">
-								<!-- <p><img style="border: 0px;" class="img-fluid img-thumbnail" src="./Image/Logo/image12.png" alt="">
-															<h1 style="block">Find the perfect fit</h1></p> -->
-								<div class="col-3">
+								<div class="col-lg-3 m-sm-2 d-flex justify-content-sm-center">
 									<img class="img-fluid " src="./Image/Logo/image12.png" alt="">
 								</div>
-								<div class="col-9">
-									<h3 class="font-weight-bold">Find the perfect fit</h3>
-									<p>Everybody is different, which is why we offer style to everybody</p>
+								<div class="col-lg-9 pt-lg-2">
+									<h3 class="font-weight-bold justify-content-sm-center">Free Exchanges</h3>
+									<p>One of the many reasons you can shop with peace of mind</p>
 								</div>
 							</div>
 							<div class="row d-flex bg-white shadow-lg column mt-2">
-								<!-- <p><img style="border: 0px;" class="img-fluid img-thumbnail" src="./Image/Logo/image12.png" alt="">
-								<h1 style="block">Find the perfect fit</h1></p> -->
-								<div class="col-3">
+								<div class="col-lg-3 m-sm-2 d-flex justify-content-sm-center">
 									<img class="img-fluid " src="./Image/Logo/image12.png" alt="">
 								</div>
-								<div class="col-9">
-									<h3 class="font-weight-bold">Find the perfect fit</h3>
-									<p>Everybody is different, which is why we offer style to everybody</p>
+								<div class="col-lg-9 pt-lg-2">
+									<h3 class="font-weight-bold justify-content-sm-center">Contact Our Seller</h3>
+									<p>They are here to help you. That's quite literally what we pay them for.</p>
 								</div>
 							</div>
 						</div>
@@ -263,6 +227,32 @@
 				</div>
 			</section>
 		</main>
+		<footer class="newsletter my-5">
+			<div class="subscription container pt-2 text-white">
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 py-3">
+						<h3>About</h3>
+						<p>We are a young company always looking for new and creative ideas to help you with our
+							products in your everyday work</p>
+					</div>
+					<div class="col-lg-4 col-sm-12 py-3">
+						<h3>Contact</h3>
+						<i class="fa fa-location-arrow" aria-hidden="true">   Ashuliya, Savar, Dhaka</i><br>
+						<i class="fa fa-phone" aria-hidden="true">   +880169696969</i><br>
+						<i class="far fa-envelope"></i> Email: robinsrk3@gmail.com</i><br>
+						<i class="fab fa-facebook-f" aria-hidden="true"> www.facebook.com/robinsrkpetpds</i>
+					</div>
+					<div class="col-lg-4 col-sm-12 py-3">
+						<h3>Follow us on</h3>
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+						<a href="#"><i class="fab fa-instagram-square"></i></a>
+						<a href="#"><i class="fab fa-telegram"></i></a>
+						<a href="#"><i class="fab fa-whatsapp-square"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 
 </html>
