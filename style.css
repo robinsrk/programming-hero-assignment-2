@@ -1,26 +1,26 @@
 nav-bar {
-	background-color: #FFFBF0 !important;
+	background-color: #fffbf0 !important;
 	font-family: roboto !important;
 }
 .back-yellow {
-	background-color: #FFFBF0;
+	background-color: #fffbf0;
 }
 .yellow {
-	color: #FABE4C;
+	color: #fabe4c;
 }
 .welcome h1 {
 	font-family: lobster !important;
 }
-.welcome .gap{
+.welcome .gap {
 	margin-top: 100px;
 }
-header {
-	height:950px;
-}
-.women-jacket{
+/* header {
 	height: 950px;
-}
-.women-jacket .card{
+} */
+/* .women-jacket {
+	height: 950px;
+} */
+.women-jacket .card {
 	/* background-color: grey !important; */
 	border-radius: 20px;
 }
@@ -28,22 +28,53 @@ header {
 	background-color: grey !important;
 	border:0px;
 } */
-.img-1, .img-2, .img-3{
+.img-1,
+.img-2,
+.img-3 {
 	background-color: lightgrey !important;
 	border: 0px !important;
+	border-radius: 30px;
 }
-.women-jacket .img-2{
-	width: 80% !important;
-	margin-left: 30px;
+.img-1{
+	width: 90% !important;
 }
-.men-jacket .img-1,.ment-jacket .img-3 {
+.img-2 {
+	width: 65% !important;
+}
+.img-3 {
+	width: 70% !important;
+}
+
+.men-jacket .img-1,
+.ment-jacket .img-3 {
 	width: 70%;
 	margin-left: 60px;
 }
- .card-image {
-	background-color: lightgrey;
-	border-radius: 20px;
-	height: 500px;
+@media (min-width: 920px) {
+	.card-image {
+		background-color: lightgrey;
+		border-radius: 20px;
+		height: 400px;
+	}
+	.women-jacket {
+		height: 950px;
+	}
+}
+@media (max-width: 400px) {
+	.card-imge {
+		height: 600px;
+		background-color: lightgrey;
+		border-radius: 20px;
+	}
+	.card-3{
+		margin-bottom: 300px;
+	}
+	header{
+		/* height: 1400px; */
+	}
+	.women-jacket{
+		/* height: 1400px; */
+	}
 }
 .item {
 	border: 0px !important;
@@ -56,4 +87,14 @@ header {
 	margin-left: 30px;
 	background-color: lightgrey !important;
 	border: 0px !important;
+}
+.column {
+	border-radius: 30px;
+}
+.about img{
+	border: 0px;
+	width: 120px;
+}
+.about {
+	height: 950px;
 }
